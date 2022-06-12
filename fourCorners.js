@@ -23,7 +23,7 @@ function fourCorners() {
   westSet.clear();
   //Move players to the four corners
   if (numberOfPlayers == 0) {
-    alert(" You Won!")
+    alert(" You Won! ")
     return;
   }
   for (i = 0; i < numberOfPlayers; i++) {
